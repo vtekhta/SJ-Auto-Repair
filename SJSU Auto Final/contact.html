@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<style>
+    .center 
+    {
+        text-align: center;
+    }
+    .message
+    {
+        width:200px;
+        height:100px;
+    }
+
+</style>
+<head>
+    <title>Shoreline Auto Care</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- CSS stylesheet goes here -->
+    <link rel="stylesheet" href="maincss.css" />
+
+</head>
+
+<body>
+
+    <article>
+        <header>
+
+            <img src="sllogo.png" alt="Shoreline logo" class="logo">
+
+
+        </header>
+    </article>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <ul id="nav">
+
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="About Page.html">About</a></li>
+            <li><a href="Services page.html">Services</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a> </li>
+            <li><a href="appointment.html">Appointments</a></li>
+        </ul>
+    </div>
+    <article class="center">
+        <form method="post" onsubmit="alert('Thank You!');" onSubmit="window.location.reload()">
+            <p>
+                <br />
+                <div id="contact us">
+				<div id="headertext"><h2>OUR LOCATION<br><br></h2></div>
+					<div id="centertext">
+                        810 Miramonte Ave. Mountain View, CA 94040
+                        <br><br>
+                        <a href="https://www.google.com/maps/place/Shoreline+Auto+Care/@37.3876012,-122.0888023,15z/data=!4m2!3m1!1s0x0:0x99c4f9922a15ddf0?sa=X&ved=2ahUKEwjpiLP1v7HwAhXJW80KHUw_AnMQ_BIwEXoECCEQBQ">Directions</a>
+                        <br><br>
+                        650-937-1000
+                        <br><br>
+                    </div>
+				<div id="headertext"><h2>CONTACT US<br><br></h2></div>
+                </div>
+                <input type="text" required maxlength="30" name="email" input placeholder="Write your name here." />
+                <br><br>
+                <input type="email" required maxlength="30" name="email" input placeholder="Write your email here."/>
+                <br><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required input placeholder="(123)-456-789">
+                <br><br>
+                <input type="text" required maxlength="300" name="message" class="message" input placeholder="What would you like to tell us."/>
+                <br><br />
+                <input type="submit" class="button" value="Submit" />
+            </p>
+            <br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+</article>
+        <div class="footer">
+        <p>2021 Shoreline Auto Care</p>
+      </div>
+    </body>
+</html>
